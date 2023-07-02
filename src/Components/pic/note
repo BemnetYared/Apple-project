@@ -1,0 +1,175 @@
+        <ul class="links">
+          <li class="icon">
+            <a href="appl.htm"><i class="fa-brands fa-apple"></i></a>
+          </li>
+          <li><a href="store.htm">Store</a></li>
+          <li><a href="mac.htm">Mac</a></li>
+          <li><a href="ipad.htm">iPad</a></li>
+          <li><a href="iphon.htm">iPhone</a></li>
+          <li><a href="watch.htm">Watch</a></li>
+          <li><a href="air.htm">AirPods</a></li>
+          <li><a href="tv.htm">TV & Home</a></li>
+          <li><a href="only.htm">Only on Apple</a></li>
+          <li><a href="accessories.htm">Accessories</a></li>
+          <li><a href="support.htm">Support</a></li>
+          <li>
+            <a href="glass.htm"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+          <li>
+            <a href="cart.htm"><i class="fa-solid fa-bag-shopping"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="charity">
+        <h2>unicef</h2>
+        <li>
+          <a href="#"><i class="fa-solid fa-globe"></i></a>
+        </li>
+        <a href="#" class="help"
+          >Donate to support families affected by the war in Ukraine|</a
+        >
+      </div>
+      <section class="superpower">
+        <h1>iPhone 13</h1>
+        <div class="par">
+          <p>Your new superpower.</p>
+        </div>
+        <div class="learn">
+          <a href="#" class="learn">Learn more ></a>
+          <a href="#" class="learn">Buy ></a>
+        </div>
+        <div class="image">
+          <img src="pic/iPhone 13 Verde Alpino.jpg" alt="" />
+        </div>
+      </section>
+      <section class="Pro">
+        <h1>iPhone 13 Pro</h1>
+        <div class="par">
+          <p>Oh.So.Pro</p>
+        </div>
+        <div class="learn">
+          <a href="#" class="learn">Learn more</a>
+          <a href="#" class="learn">Buy ></a>
+        </div>
+        <img src="pic/download (1) - Copy.jpg" alt="" />
+      </section>
+      <section class="Mac">
+        <h1>Get <span>supercharged</span> for college</h1>
+  
+        <div class="par">
+          <p>Save on Mac or iPad.Plus get a gift card uo to $150.1</p>
+        </div>
+        <div class="learn">
+          <a href="#" class="learn">Shop now ></a>
+        </div>
+        <div class="image">
+          <img
+            src="pic/Apple to sell Mac, iPad with up to Rs 24,000 discount, free AirPods to students, teachers_ Full details _ TheSpuzz.jpg"
+            alt=""
+          />
+        </div>
+      </section>
+      <div class="container">
+        <div class=""></div>
+      </div>
+/* css */
+      header{
+        width: 100%;
+        height: 40px;
+        background-color: rgba(0, 0, 0, 0.795);
+        top: 0;
+         position: fixed;  
+     }
+     
+     .icon {
+        float: left;
+     }
+     
+      .links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     .links li{
+        list-style: none;
+        padding: 0 20px;
+        padding-top:10px;
+     }
+     
+     .links li a {
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 100;
+        color: rgb(216, 216, 216);
+     }
+     
+     .links li a:hover {
+        color: rgb(255, 255, 255);
+     }
+     
+      .par{
+         text-align: center;
+         font-family:Arial, Helvetica, sans-serif;
+         font-size: 25px;
+         padding-bottom: 10px;
+      }
+      img{
+         padding-top: 0;
+         padding-left: 300px;
+         width: 85%;
+      }
+     
+      h1{
+         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         color: rgb(36, 36, 36);
+         font-size: 60px;
+         font-weight: 700;
+         padding-top: 60px;
+         text-align: center;
+      }
+     
+      .learn{
+         text-align: center;
+         color: #06c;
+         padding-right:20px ;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+     
+      
+      .learn{
+         text-align: center;
+         color: #06c;
+      }
+      .charity{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         padding: 10px 10px;
+         padding-top: 60px;
+         background:  #f1f1f1;
+      }
+     
+      .charity img{
+         text-decoration: none;
+         
+      }
+     
+      .help{
+         font-size: 15px;
+         padding-left: 20px;
+         color: #06c;
+      }
+     
+      h2{
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 500;
+      }
+     
+      span{
+         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         color: rgb(216, 17, 110);
+         font-size: 60px;
+         font-weight: 700;
+         padding-top: 60px;
+         text-align: center;
+      }
